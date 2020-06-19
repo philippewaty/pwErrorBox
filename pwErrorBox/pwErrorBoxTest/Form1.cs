@@ -15,6 +15,12 @@ namespace pwErrorBoxTest
     public Form1()
     {
       InitializeComponent();
+      pwErrorBox.ErrorReport.Bind();
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      throw new Exception("test error form");
     }
   }
 }
