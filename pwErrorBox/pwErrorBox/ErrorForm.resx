@@ -139,7 +139,7 @@
     <value>True</value>
   </data>
   <data name="chkIncludeScreenshot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 17</value>
+    <value>190, 20</value>
   </data>
   <data name="chkIncludeScreenshot.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -168,17 +168,17 @@
   <data name="btnMail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="btnMail.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -220,6 +220,426 @@
   <data name="TabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="&gt;&gt;txtOS.Name" xml:space="preserve">
+    <value>txtOS</value>
+  </data>
+  <data name="&gt;&gt;txtOS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOS.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtOS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblOS.Name" xml:space="preserve">
+    <value>lblOS</value>
+  </data>
+  <data name="&gt;&gt;lblOS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOS.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblOS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtExplaination.Name" xml:space="preserve">
+    <value>txtExplaination</value>
+  </data>
+  <data name="&gt;&gt;txtExplaination.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtExplaination.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtExplaination.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblExplaination.Name" xml:space="preserve">
+    <value>lblExplaination</value>
+  </data>
+  <data name="&gt;&gt;lblExplaination.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExplaination.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblExplaination.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
+    <value>txtEmail</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMail.Name" xml:space="preserve">
+    <value>lblMail</value>
+  </data>
+  <data name="&gt;&gt;lblMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMail.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblMail.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Name" xml:space="preserve">
+    <value>txtDate</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve">
+    <value>lblDate</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Name" xml:space="preserve">
+    <value>txtVersion</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtApplication.Name" xml:space="preserve">
+    <value>txtApplication</value>
+  </data>
+  <data name="&gt;&gt;txtApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtApplication.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtApplication.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblApplication.Name" xml:space="preserve">
+    <value>lblApplication</value>
+  </data>
+  <data name="&gt;&gt;lblApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblApplication.Parent" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblApplication.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TabPageGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="TabPageGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPageGeneral.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 258</value>
+  </data>
+  <data name="TabPageGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPageGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Name" xml:space="preserve">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtException.Name" xml:space="preserve">
+    <value>txtException</value>
+  </data>
+  <data name="&gt;&gt;txtException.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtException.Parent" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;txtException.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblException.Name" xml:space="preserve">
+    <value>lblException</value>
+  </data>
+  <data name="&gt;&gt;lblException.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblException.Parent" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;lblException.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Name" xml:space="preserve">
+    <value>txtSource</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSource.Parent" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;txtSource.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Name" xml:space="preserve">
+    <value>lblSource</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Parent" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;lblSource.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtStackTrace.Name" xml:space="preserve">
+    <value>txtStackTrace</value>
+  </data>
+  <data name="&gt;&gt;txtStackTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStackTrace.Parent" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;txtStackTrace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TabPageDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="TabPageDetail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPageDetail.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 258</value>
+  </data>
+  <data name="TabPageDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabPageDetail.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="&gt;&gt;TabPageDetail.Name" xml:space="preserve">
+    <value>TabPageDetail</value>
+  </data>
+  <data name="&gt;&gt;TabPageDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageDetail.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabPageDetail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picScreenshot.Name" xml:space="preserve">
+    <value>picScreenshot</value>
+  </data>
+  <data name="&gt;&gt;picScreenshot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picScreenshot.Parent" xml:space="preserve">
+    <value>TabPageScreenshot</value>
+  </data>
+  <data name="&gt;&gt;picScreenshot.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabPageScreenshot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="TabPageScreenshot.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPageScreenshot.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageScreenshot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 258</value>
+  </data>
+  <data name="TabPageScreenshot.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabPageScreenshot.Text" xml:space="preserve">
+    <value>Screenshot</value>
+  </data>
+  <data name="&gt;&gt;TabPageScreenshot.Name" xml:space="preserve">
+    <value>TabPageScreenshot</value>
+  </data>
+  <data name="&gt;&gt;TabPageScreenshot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageScreenshot.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabPageScreenshot.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="colName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colName.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <metadata name="colVersion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colVersion.HeaderText" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="colVersion.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colVersion.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <metadata name="colLocation.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colLocation.HeaderText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="colLocation.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colLocation.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="dgvAssemblies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvAssemblies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dgvAssemblies.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvAssemblies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 252</value>
+  </data>
+  <data name="dgvAssemblies.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvAssemblies.Name" xml:space="preserve">
+    <value>dgvAssemblies</value>
+  </data>
+  <data name="&gt;&gt;dgvAssemblies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvAssemblies.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;dgvAssemblies.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 258</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Assemblies</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="TabControl1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 287</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="txtOS.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 60</value>
   </data>
@@ -227,7 +647,7 @@
     <value>True</value>
   </data>
   <data name="txtOS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 20</value>
+    <value>461, 22</value>
   </data>
   <data name="txtOS.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -257,7 +677,7 @@
     <value>True</value>
   </data>
   <data name="lblOS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 13</value>
+    <value>26, 16</value>
   </data>
   <data name="lblOS.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -293,7 +713,7 @@
     <value>True</value>
   </data>
   <data name="txtExplaination.Size" type="System.Drawing.Size, System.Drawing">
-    <value>587, 130</value>
+    <value>587, 127</value>
   </data>
   <data name="txtExplaination.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -347,7 +767,7 @@
     <value>True</value>
   </data>
   <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 20</value>
+    <value>461, 22</value>
   </data>
   <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -401,7 +821,7 @@
     <value>True</value>
   </data>
   <data name="txtDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
+    <value>122, 22</value>
   </data>
   <data name="txtDate.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -455,7 +875,7 @@
     <value>True</value>
   </data>
   <data name="txtVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 20</value>
+    <value>274, 22</value>
   </data>
   <data name="txtVersion.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -509,7 +929,7 @@
     <value>True</value>
   </data>
   <data name="txtApplication.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 20</value>
+    <value>461, 22</value>
   </data>
   <data name="txtApplication.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -556,36 +976,6 @@
   <data name="&gt;&gt;lblApplication.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="TabPageGeneral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPageGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TabPageGeneral.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TabPageGeneral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 261</value>
-  </data>
-  <data name="TabPageGeneral.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="TabPageGeneral.Text" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="&gt;&gt;TabPageGeneral.Name" xml:space="preserve">
-    <value>TabPageGeneral</value>
-  </data>
-  <data name="&gt;&gt;TabPageGeneral.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPageGeneral.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;TabPageGeneral.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="txtException.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 32</value>
   </data>
@@ -593,7 +983,7 @@
     <value>True</value>
   </data>
   <data name="txtException.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 20</value>
+    <value>274, 22</value>
   </data>
   <data name="txtException.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -647,7 +1037,7 @@
     <value>True</value>
   </data>
   <data name="txtSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 20</value>
+    <value>274, 22</value>
   </data>
   <data name="txtSource.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -677,7 +1067,7 @@
     <value>True</value>
   </data>
   <data name="lblSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
+    <value>50, 16</value>
   </data>
   <data name="lblSource.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -716,7 +1106,7 @@
     <value>True</value>
   </data>
   <data name="txtStackTrace.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 200</value>
+    <value>596, 197</value>
   </data>
   <data name="txtStackTrace.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -733,36 +1123,6 @@
   <data name="&gt;&gt;txtStackTrace.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="TabPageDetail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPageDetail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TabPageDetail.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TabPageDetail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 261</value>
-  </data>
-  <data name="TabPageDetail.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TabPageDetail.Text" xml:space="preserve">
-    <value>Detail</value>
-  </data>
-  <data name="&gt;&gt;TabPageDetail.Name" xml:space="preserve">
-    <value>TabPageDetail</value>
-  </data>
-  <data name="&gt;&gt;TabPageDetail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPageDetail.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;TabPageDetail.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="picScreenshot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -776,7 +1136,7 @@
     <value>True</value>
   </data>
   <data name="picScreenshot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 226</value>
+    <value>596, 223</value>
   </data>
   <data name="picScreenshot.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -796,134 +1156,26 @@
   <data name="&gt;&gt;picScreenshot.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="TabPageScreenshot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPageScreenshot.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TabPageScreenshot.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TabPageScreenshot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 261</value>
-  </data>
-  <data name="TabPageScreenshot.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TabPageScreenshot.Text" xml:space="preserve">
-    <value>Screenshot</value>
-  </data>
-  <data name="&gt;&gt;TabPageScreenshot.Name" xml:space="preserve">
-    <value>TabPageScreenshot</value>
-  </data>
-  <data name="&gt;&gt;TabPageScreenshot.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabPageScreenshot.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;TabPageScreenshot.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtAssemblies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txtAssemblies.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="txtAssemblies.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtAssemblies.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 255</value>
-  </data>
-  <data name="txtAssemblies.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtAssemblies.Name" xml:space="preserve">
-    <value>txtAssemblies</value>
-  </data>
-  <data name="&gt;&gt;txtAssemblies.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtAssemblies.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtAssemblies.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 261</value>
-  </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Assemblies</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 82</value>
-  </data>
-  <data name="TabControl1.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>610, 287</value>
-  </data>
-  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
   <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVDhPndL7S1NhGAdwf66/oB8Kii5QkFRIRbrs
-        YldTQekmWFqplbNSs9DohpXaRSTRMpVBSYjdyFQ0E12ToUvbzdvUVHCb083tbB63nZ2zb8+c5vDHXvhy
-        zsPh+bzv+3CCAAStXFVVG3JW7om6+JONoURdkLKRSVL2eFI7G5m4mLb5HE1ocW45KfesWFP93dc7D+xK
-        UeL9OODgnFQCHIWl2HlgzuuvBd8HWjMsg4w6I9YlanylHwgTawWJloPNageoYc4FMCSYGWDaSk0Owqn2
-        EDg1ZUZq9Rg2XOrzmX4g9KqKr1R7YGMc8BLAuv2AhQDjDGCwACaCHHOAXj+Nm3UMgsV/lgM8GMcslf6d
-        5ug2DJUWOtQkIT7ISieZ0JuR+dWGrWkjS4AoTcVXqAXYWdpiYfE+hE5iJ8h3BZONrkMnmtDbaAZ2BF9b
-        BlRpvHC5fKOjzsUIHAQPB7eTw+ysGw67G1MGE7II2BYIHEhX8S97gNYBF5r7XajXOlGnZvHltx2fuhnU
-        djKo6bTi4y8zamSTSP7sQcj14SXgWIaSz+0Azr0VEP/aifhyF06VuRBLiSlxIZpyuMiNkAc8woqBgxIg
-        LGtoCTiRqeRvtAGpFQ4o1ZMwmqYwPDqN3sFp9FF042bUtxuxNtaKnY95hBOwNzsAiM5W8ldaALHERnc0
-        4EmpHnKFEV7OApax0HMG2gEDRGIbQgsF7KkA9t0KAGIISKEfM/mNFWrVCFaHG1BcOQ6rRY+RUT0mCe3o
-        GkPcQztEzwXseAXsvx0AxOao+MQGIKHEAplUi4jzOpRK+qHrH0J3zzC0miE0tw7gcokDohdebC6iOeQE
-        DDEuV40UGQHlVshlSigUaii6NOjp6af0QaPsxQ+CnzUJOFQJbCoDjtwbptYFYP32d9IzBTrP6Zxu7lHe
-        N664qIl7WtjI5ec3cgUFjfTewN3Pa+TSC/u4qLuDXMQdnWfj7g/Kf8D/B0F/Aa/5KsF6r6vUAAAAAElF
-        TkSuQmCC
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALpSURBVDhPpdPraxRXGMfxvLZ/gS8UKrUFCxUtQUtN
+        alu1ajUGIrZWSBtrja3GS9QosbQqtpp4CaHBtDaRBZUi9ka3GrxUdI0EjdnOXsxlk1QD3d1kb7Mzk9md
+        PTuz3zJZ6y6+9cDvwOFwPuc8D5wSoOSF6WcvlX7Uk63YdEev3HRHr/jUpa/a6NLf33hbX1Xzf25NZUX1
+        jfSr63qy02ZeuG6fLbGnhbUSP42BJtLYQwA6oJqQyuXX1tQOJHSFemeYWTU+e5kHyur8lsMvSMoq5CBl
+        gKJDTIGoDAkNNB2yJkQiMbZceMzsz/ptMw8s2uoxO71ZkopGLgd6Jg/EFQgnIBSHCRm0FASDUfY6FebW
+        /fMsYKJok1PPtG9KpUGZhLgK44k8JGvwbzDG7j+SvLZttACUb/OYHV4LVU89qRRMG8mAms6XMJGEqGID
+        SeqdKnN3PAOc9eUwDLt1ZiGWwMoKMmnB5GQGTc0QCU2wx6kyrxh4d7vH/M4NNwcNrg0YXPancXp1fv9b
+        5dc+hUv3FC7ek/nlQYyL3eNs/i1L6c6RArCyXjIP3IWPz1ls+CHNhjMGH7QbVLUbVLYZrGkzeK8lQ+kh
+        k7JWWOKAsj3DBWD1bsncdQu2dGhI3nHCExFGHkV5OBSlfyhKYCzG5dthXqySWfCtyWIHvNVQBKxpkMwv
+        bkCdI0kkFOLo6SA9vWFyIo6uxMmJBP7BEOV1SRY1W7zZAW/vKwIqGySz9jps/lHG6xllxuIQrZ1jyPEg
+        o4+CjIdC3L3/mLWHVcpPWrz+PbyzvwioavSYNVegui1Ot8vP0k8CnHYMEBgYps89gt83zLWbg3zeplF+
+        KsecFljSWNTEtQe81HZD9RmZnm6J3l4vvfd9uN0DuN39+KSH/OXyc+KqxbJOeKUdln89UvgLL80/71rf
+        FMh+2Ngnvjnyp2htuSqON3eJY8e6RFNTlzjefEUcPNIltjf3i4qvhsTSLwPZl9/4WXoKPE/+A6/5KsHP
+        5ju4AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnSave.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -965,23 +1217,11 @@
   <metadata name="ContextMenuStripCopy.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>652, 17</value>
   </metadata>
-  <data name="mnuTexte.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
-  </data>
-  <data name="mnuTexte.Text" xml:space="preserve">
-    <value>Texte</value>
-  </data>
-  <data name="mnuScreenshot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
-  </data>
-  <data name="mnuScreenshot.Text" xml:space="preserve">
-    <value>Capture d'écran</value>
-  </data>
   <data name="ContextMenuStripCopy.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="ContextMenuStripCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 48</value>
+    <value>183, 52</value>
   </data>
   <data name="&gt;&gt;ContextMenuStripCopy.Name" xml:space="preserve">
     <value>ContextMenuStripCopy</value>
@@ -989,25 +1229,37 @@
   <data name="&gt;&gt;ContextMenuStripCopy.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="mnuTexte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="mnuTexte.Text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="mnuScreenshot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="mnuScreenshot.Text" xml:space="preserve">
+    <value>Capture d'écran</value>
+  </data>
   <data name="btnClipboard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
   <data name="btnClipboard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="btnClipboard.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -1081,43 +1333,43 @@
   </data>
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -1159,18 +1411,18 @@
   <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJrSURBVDhPVZM9SFthFIa/RDGDP4ioOAiCqFe7OKiD
-        gqKTODiJiE6Cg4NLETJKi3OF2oK1tCitkDRY+uMqaUuhUCWYYsGf2oB2SQRTxBBbuN739D33JrEZntzz
-        nfO+557Ld2I+GlPggzGtn405/lZTY8erq+0Y2SU75Atzm6y9oGaN2ifkISmYo8ZYak7NzQkODwV7e8Uw
-        d8ZaiJpn1BY1oPnOJ2MS5zMzgqMjQTwu2N8vRnOsnVKzTu1jetwGHNui+SQ1NibY2hJsbwtiMUE4LIhE
-        PDTWnNaoSVC7Ss8SvUbHTg4MCJaXBWtrgkxGAAiiUcHioofGmstmBRsbgpUV+dHbK5zi2MQDAWB6WjA7
-        K1haElxfe2IlFPLIn6+uxJ6flz89PeI0Nsobnw9mr7TURn+/YGREMDgoCAYFl5eewXE8GDvJpGT7+uTS
-        GEmTDOGt2Cbm99tobhZ0dAja2wVNTYKpKcHFReHNTiolme5u1/g7R5ZEtMEuf1BeLqiqElRUCMrKvM/J
-        vTk/yfX4eMGcb/BKG+xoAx6cHJicvDWen3vkzn8nJlyjckPcCb4aA22gCWd09NbMb3a6ulw0zudvqFGt
-        esL0Gl3Ps5ISQSAgaGsTJBKCdFowNOSKXDTWnNZUQ+13eu7rNXK3La7nya/KSkFtraCzUzA8LMifFY01
-        pzWeD3heoGdeF+klt/Ep13Ld50ucNjR4N6G3Ylne2xSNNcfaITUL1N6lJ6irrA2eE26Vter3H/9safFG
-        1u38H+YOWLtHDc2WmosarJAH/Ks+ouBdXZ39vr7efsvna7LJOMSnmjl2a94cNMb8A+GFU3OF5OWQAAAA
-        AElFTkSuQmCC
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKFSURBVDhPVZI/SJtRFMVPophBIyGYkEEQJPHTLA7q
+        oKDoJA5OIqKT4ODgIgFHaXGuUCtYS4tihVix9E9WiZVCoYposWCSpgHtkghaRNEWXnNPufmMmuEH9513
+        z3n38R4+ASiyBYQ+A6lvXq858HjMnsdjdj0es+PxmC9er9kAUitAaAnAcwBP8cAcByw15yYmKIkEZX+/
+        lESCJxMTjAKpl4BVEhAHwttA5nRsjJJMUg4OKIeHpaiWTPJ4bIzLQGYeCBcCtgBrG0jnBgYosRhlc5Oy
+        t0dZW6Osr9torZruxWLMDAxwEUjPAhZ07GxXF2VujrK0RLm6oohQ4nHKzIyN1qpdX1NWVykLC/zR3s55
+        IIUDl0tkdJQyPk6ZnaXc3NjNSjRqU1xfXtJEIvzT1sZ8bS3fORyC/fJyI52dlL4+Snc3ZWqKcnFhG/J5
+        GxHms1led3TwAuA5wCuAG4DBntNppL6e0tREaWyk1NVRRkYoZ2d3J+dzOV61thaMv2+5BriuAbuAkcpK
+        SnU1paqKUlFhX+f25OIkN4ODd+ZiwBsN2NEAgPlbZHj43nh6anO7/js0VDAq/4oTfAVEA1TI9/ffm7NZ
+        5ltaCmhd1P/19xd61bMGCPR7npSVUVwuSkMDJZOhnJ9TenoKTQW0Vk33tMfl4veyMj7WZ1wBrCiQ/uV2
+        U2pqKM3NlN5eSnGtaK2a7tXU8Mjt5jSQjuhHeg3gBRBedjgyx4GA/RL6KpZln6ZorVpjIxOBAKcdjswk
+        EJ7Sr6wBrwDMA9ai05n6GQzaI+vvfEhPD4+CQT5yOlOTgKXmkoAFAE+A0DOnM/XB5zMf/X7z3uczb30+
+        s+H3m6jPZ9QcAUJFs/If4YVTcy6h/ysAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btnClose.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -1244,6 +1496,24 @@
   </data>
   <data name="&gt;&gt;mnuScreenshot.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colVersion.Name" xml:space="preserve">
+    <value>colVersion</value>
+  </data>
+  <data name="&gt;&gt;colVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colLocation.Name" xml:space="preserve">
+    <value>colLocation</value>
+  </data>
+  <data name="&gt;&gt;colLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ErrorForm</value>
