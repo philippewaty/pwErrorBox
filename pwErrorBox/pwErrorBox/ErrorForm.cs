@@ -220,7 +220,11 @@ namespace pwErrorBox
                 Clipboard.Clear();
                 string message;
 
-                message = $"Application: {txtApplication.Text}{Environment.NewLine}";
+                message = "---- Error Report ----" + Environment.NewLine;
+                message += $"Error: {txtError.Text}{Environment.NewLine}";
+                message += Environment.NewLine;
+                message += "---- General Information ----" + Environment.NewLine;
+                message += $"Application: {txtApplication.Text}{Environment.NewLine}";
                 message += $"Version: {txtVersion.Text}{Environment.NewLine}";
                 message += $"Date: {txtDate.Text}{Environment.NewLine}";
                 message += $"OS: {txtOS.Text}{Environment.NewLine}";
@@ -229,6 +233,8 @@ namespace pwErrorBox
                     message += $"Email: {txtEmail.Text}{Environment.NewLine}";
                 }
                 message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
+                message += Environment.NewLine;
+                message += "---- Exception Details ----" + Environment.NewLine;
                 message += $"Source: {txtSource.Text}{Environment.NewLine}";
                 message += $"Exception: {txtException.Text}{Environment.NewLine}";
                 message += $"Error: {txtError.Text}{Environment.NewLine}";
