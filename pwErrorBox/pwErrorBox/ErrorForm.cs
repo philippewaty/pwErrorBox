@@ -213,6 +213,52 @@ namespace pwErrorBox
 
         }
 
+        private void mnuTexte_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.Clear();
+                string message;
+
+                message = $"Application: {txtApplication.Text}{Environment.NewLine}";
+                message += $"Version: {txtVersion.Text}{Environment.NewLine}";
+                message += $"Date: {txtDate.Text}{Environment.NewLine}";
+                message += $"OS: {txtOS.Text}{Environment.NewLine}";
+                if (!string.IsNullOrEmpty(txtEmail.Text))
+                {
+                    message += $"Email: {txtEmail.Text}{Environment.NewLine}";
+                }
+                message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
+                message += $"Source: {txtSource.Text}{Environment.NewLine}";
+                message += $"Exception: {txtException.Text}{Environment.NewLine}";
+                message += $"Error: {txtError.Text}{Environment.NewLine}";
+                Clipboard.SetText(message, TextDataFormat.Text);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Print(ex.Message);
+            }
+
+        }
+
+        private void btnClipboard_MouseUp(object sender, MouseEventArgs e)
+        {
+            ContextMenuStripCopy.Show(btnClipboard, new Point(0, btnClipboard.Height));
+        }
+
+        private void mnuScreenshot_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.Clear();
+                Clipboard.SetImage(_screenshotPic);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Print(ex.Message);
+            }
+
+        }
     }
 
 

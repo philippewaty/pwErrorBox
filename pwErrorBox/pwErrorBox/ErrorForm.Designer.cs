@@ -57,6 +57,10 @@
             this.TabPageScreenshot = new System.Windows.Forms.TabPage();
             this.picScreenshot = new System.Windows.Forms.PictureBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dgvAssemblies = new System.Windows.Forms.DataGridView();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colVersion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLocation = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSave = new System.Windows.Forms.Button();
             this.ContextMenuStripCopy = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuTexte = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,19 +69,15 @@
             this.txtError = new System.Windows.Forms.TextBox();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
-            this.dgvAssemblies = new System.Windows.Forms.DataGridView();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colVersion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colLocation = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TabControl1.SuspendLayout();
             this.TabPageGeneral.SuspendLayout();
             this.TabPageDetail.SuspendLayout();
             this.TabPageScreenshot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picScreenshot)).BeginInit();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAssemblies)).BeginInit();
             this.ContextMenuStripCopy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAssemblies)).BeginInit();
             this.SuspendLayout();
             // 
             // ToolTip1
@@ -278,6 +278,43 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // dgvAssemblies
+            // 
+            this.dgvAssemblies.AllowUserToAddRows = false;
+            this.dgvAssemblies.AllowUserToDeleteRows = false;
+            this.dgvAssemblies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAssemblies.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colName,
+            this.colVersion,
+            this.colLocation});
+            resources.ApplyResources(this.dgvAssemblies, "dgvAssemblies");
+            this.dgvAssemblies.MultiSelect = false;
+            this.dgvAssemblies.Name = "dgvAssemblies";
+            this.dgvAssemblies.ReadOnly = true;
+            this.dgvAssemblies.RowTemplate.Height = 24;
+            this.dgvAssemblies.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            // 
+            // colName
+            // 
+            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.colName, "colName");
+            this.colName.Name = "colName";
+            this.colName.ReadOnly = true;
+            // 
+            // colVersion
+            // 
+            this.colVersion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.colVersion, "colVersion");
+            this.colVersion.Name = "colVersion";
+            this.colVersion.ReadOnly = true;
+            // 
+            // colLocation
+            // 
+            this.colLocation.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.colLocation, "colLocation");
+            this.colLocation.Name = "colLocation";
+            this.colLocation.ReadOnly = true;
+            // 
             // btnSave
             // 
             resources.ApplyResources(this.btnSave, "btnSave");
@@ -299,20 +336,22 @@
             // 
             this.mnuTexte.Name = "mnuTexte";
             resources.ApplyResources(this.mnuTexte, "mnuTexte");
+            this.mnuTexte.Click += new System.EventHandler(this.mnuTexte_Click);
             // 
             // mnuScreenshot
             // 
             this.mnuScreenshot.Name = "mnuScreenshot";
             resources.ApplyResources(this.mnuScreenshot, "mnuScreenshot");
+            this.mnuScreenshot.Click += new System.EventHandler(this.mnuScreenshot_Click);
             // 
             // btnClipboard
             // 
             resources.ApplyResources(this.btnClipboard, "btnClipboard");
             this.btnClipboard.ContextMenuStrip = this.ContextMenuStripCopy;
-            this.btnClipboard.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClipboard.Name = "btnClipboard";
             this.HelpProvider1.SetShowHelp(this.btnClipboard, ((bool)(resources.GetObject("btnClipboard.ShowHelp"))));
             this.btnClipboard.UseVisualStyleBackColor = true;
+            this.btnClipboard.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnClipboard_MouseUp);
             // 
             // txtError
             // 
@@ -337,40 +376,6 @@
             this.HelpProvider1.SetShowHelp(this.btnClose, ((bool)(resources.GetObject("btnClose.ShowHelp"))));
             this.btnClose.UseVisualStyleBackColor = true;
             // 
-            // dgvAssemblies
-            // 
-            this.dgvAssemblies.AllowUserToAddRows = false;
-            this.dgvAssemblies.AllowUserToDeleteRows = false;
-            this.dgvAssemblies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAssemblies.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colName,
-            this.colVersion,
-            this.colLocation});
-            resources.ApplyResources(this.dgvAssemblies, "dgvAssemblies");
-            this.dgvAssemblies.MultiSelect = false;
-            this.dgvAssemblies.Name = "dgvAssemblies";
-            this.dgvAssemblies.ReadOnly = true;
-            this.dgvAssemblies.RowTemplate.Height = 24;
-            this.dgvAssemblies.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            // 
-            // colName
-            // 
-            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.colName, "colName");
-            this.colName.Name = "colName";
-            // 
-            // colVersion
-            // 
-            this.colVersion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.colVersion, "colVersion");
-            this.colVersion.Name = "colVersion";
-            // 
-            // colLocation
-            // 
-            this.colLocation.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.colLocation, "colLocation");
-            this.colLocation.Name = "colLocation";
-            // 
             // ErrorForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -394,9 +399,9 @@
             this.TabPageScreenshot.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picScreenshot)).EndInit();
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAssemblies)).EndInit();
             this.ContextMenuStripCopy.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAssemblies)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

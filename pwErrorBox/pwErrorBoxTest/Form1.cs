@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace pwErrorBoxTest
 {
-  public partial class Form1 : Form
-  {
-    public Form1()
+    public partial class Form1 : Form
     {
-      InitializeComponent();
-      pwErrorBox.ErrorReport.Bind();
-    }
+        public Form1()
+        {
+            InitializeComponent();
+            pwErrorBox.ErrorReport.Bind();
+        }
 
-    private void button1_Click(object sender, EventArgs e)
-    {
-      throw new Exception("test error form");
+        private void button1_Click(object sender, EventArgs e)
+        {
+            throw new Exception("test error form");
+        }
     }
-  }
 }
