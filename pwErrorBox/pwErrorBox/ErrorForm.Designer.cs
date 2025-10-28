@@ -321,6 +321,7 @@
             this.btnSave.Name = "btnSave";
             this.HelpProvider1.SetShowHelp(this.btnSave, ((bool)(resources.GetObject("btnSave.ShowHelp"))));
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // ContextMenuStripCopy
             // 

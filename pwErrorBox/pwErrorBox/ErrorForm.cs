@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
@@ -218,26 +219,7 @@ namespace pwErrorBox
             try
             {
                 Clipboard.Clear();
-                string message;
-
-                message = "---- Error Report ----" + Environment.NewLine;
-                message += $"Error: {txtError.Text}{Environment.NewLine}";
-                message += Environment.NewLine;
-                message += "---- General Information ----" + Environment.NewLine;
-                message += $"Application: {txtApplication.Text}{Environment.NewLine}";
-                message += $"Version: {txtVersion.Text}{Environment.NewLine}";
-                message += $"Date: {txtDate.Text}{Environment.NewLine}";
-                message += $"OS: {txtOS.Text}{Environment.NewLine}";
-                if (!string.IsNullOrEmpty(txtEmail.Text))
-                {
-                    message += $"Email: {txtEmail.Text}{Environment.NewLine}";
-                }
-                message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
-                message += Environment.NewLine;
-                message += "---- Exception Details ----" + Environment.NewLine;
-                message += $"Source: {txtSource.Text}{Environment.NewLine}";
-                message += $"Exception: {txtException.Text}{Environment.NewLine}";
-                message += $"Error: {txtError.Text}{Environment.NewLine}";
+                string message = GenerateErrorText();
                 Clipboard.SetText(message, TextDataFormat.Text);
             }
             catch (Exception ex)
@@ -245,6 +227,36 @@ namespace pwErrorBox
                 System.Diagnostics.Debug.Print(ex.Message);
             }
 
+        }
+
+        /// <summary>
+        /// Generate the error text to copy to clipboard or save to file
+        /// </summary>
+        /// <returns></returns>
+        string GenerateErrorText()
+        {
+            string message;
+
+            message = "---- Error Report ----" + Environment.NewLine;
+            message += $"Error: {txtError.Text}{Environment.NewLine}";
+            message += Environment.NewLine;
+            message += "---- General Information ----" + Environment.NewLine;
+            message += $"Application: {txtApplication.Text}{Environment.NewLine}";
+            message += $"Version: {txtVersion.Text}{Environment.NewLine}";
+            message += $"Date: {txtDate.Text}{Environment.NewLine}";
+            message += $"OS: {txtOS.Text}{Environment.NewLine}";
+            if (!string.IsNullOrEmpty(txtEmail.Text))
+            {
+                message += $"Email: {txtEmail.Text}{Environment.NewLine}";
+            }
+            message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
+            message += Environment.NewLine;
+            message += "---- Exception Details ----" + Environment.NewLine;
+            message += $"Source: {txtSource.Text}{Environment.NewLine}";
+            message += $"Exception: {txtException.Text}{Environment.NewLine}";
+            message += $"Error: {txtError.Text}{Environment.NewLine}";
+
+            return message;
         }
 
         private void btnClipboard_MouseUp(object sender, MouseEventArgs e)
@@ -265,8 +277,64 @@ namespace pwErrorBox
             }
 
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog
+            {
+                Filter = "Text files (*.txt)|*.txt",
+                FileName = $"{Application.ProductName} {DateTime.Now.ToString("yyyy-MM-dd HH.mm.ss")}.txt"
+            };
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    Cursor.Current = Cursors.WaitCursor;
+                    SaveErrorText(saveFileDialog.FileName);
+                    SaveScreenshot(saveFileDialog.FileName);
+
+                    Process.Start("explorer.exe", "/select, \"" + saveFileDialog.FileName + "\"");
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.Print(ex.Message);
+                }
+                finally
+                {
+                    Cursor.Current = Cursors.Default;
+                }
+            }
+        }
+
+        private void SaveErrorText(string filename)
+        {
+            try
+            {
+                using (System.IO.StreamWriter sw = new System.IO.StreamWriter(filename, false, Encoding.UTF8))
+                {
+                    sw.WriteLine(GenerateErrorText());
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private string SaveScreenshot(string filename)
+        {
+            string screenshotFilename = filename;
+
+            if (string.IsNullOrEmpty(screenshotFilename))
+            {
+                screenshotFilename = System.IO.Path.GetDirectoryName(System.IO.Path.GetTempFileName()) + "\\";
+                screenshotFilename += string.Format("{0} {1}.txt", Application.ProductName, DateTime.Now.ToString("yyyyMMddHHmmss"));
+            }
+
+            screenshotFilename = System.IO.Path.ChangeExtension(screenshotFilename, ".jpg");
+            picScreenshot.Image.Save(screenshotFilename, System.Drawing.Imaging.ImageFormat.Jpeg);
+
+            return screenshotFilename;
+        }
     }
-
-
-
 }
