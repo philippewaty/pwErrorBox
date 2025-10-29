@@ -38,7 +38,7 @@ namespace pwErrorBox
         /// <summary>
         /// Gets or sets email address to receive the error report.
         /// </summary>
-        public string ToEmail;
+        public string ToEmail = string.Empty;
 
         /// <summary>
         /// Creates an instance of this class if not already created.
@@ -65,6 +65,17 @@ namespace pwErrorBox
             ErrorReport report = new ErrorReport();
             report.Exception = ex;
             ErrorForm errorBox = new ErrorForm(report, _Instance.ToEmail);
+            errorBox.ShowDialog();
+        }
+
+        public void DisplayReport(Exception ex, ErrorReport report)
+        {
+            report.Exception = ex;
+            if (string.IsNullOrEmpty(report.ToEmail))
+            {
+                report.ToEmail = _Instance.ToEmail;
+            }
+            ErrorForm errorBox = new ErrorForm(report, report.ToEmail);
             errorBox.ShowDialog();
         }
 

@@ -5,10 +5,13 @@ namespace pwErrorBoxTest
 {
     public partial class Form1 : Form
     {
+
+        const string EMAIL = "pwerrorbox.corrosive249@slmail.me";
+
         public Form1()
         {
             InitializeComponent();
-            pwErrorBox.ErrorReport.Bind("pwerrorbox.corrosive249@slmail.me");
+            pwErrorBox.ErrorReport.Bind(EMAIL);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,7 +28,9 @@ namespace pwErrorBoxTest
             catch (Exception ex)
             {
                 pwErrorBox.ErrorReport errorReport = new pwErrorBox.ErrorReport();
-                errorReport.DisplayReport(ex);
+                errorReport.Source = "pwErrorBoxTest Form1 button2_Click";
+                //errorReport.ToEmail = EMAIL;
+                errorReport.DisplayReport(ex, errorReport);
             }
         }
     }
