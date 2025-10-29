@@ -11,7 +11,6 @@ namespace pwErrorBoxTest
         public Form1()
         {
             InitializeComponent();
-            pwErrorBox.ErrorReport.Bind(EMAIL);
         }
 
         private void button1_Click(object sender, EventArgs e)
