@@ -3,8 +3,18 @@ Advanced error messagebox that displays information about the error, making it e
 
 It displays informations about the program version, the OS, error details, a screenshot, and the list of assemblies.
 
-<p align="center"><img align="center" src="/Screenshot.jpg?raw=true" alt="Screenshot"></p>
+<p align="center"><img align="center" src="./Screenshot.jpg?raw=true" alt="Screenshot"></p>
 
+## Getting Started with the pwErrorBox Library
+
+You can utilize the parser library in several ways:
+
+Install via NuGet/Paket:
+
+https://www.nuget.org/packages/pwErrorBox/
+```
+NuGet\Install-Package pwErrorBox -Version 1.0.0
+```
 
 ## SAMPLE
 
