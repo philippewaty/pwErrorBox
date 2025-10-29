@@ -100,6 +100,7 @@
             this.btnMail.Name = "btnMail";
             this.HelpProvider1.SetShowHelp(this.btnMail, ((bool)(resources.GetObject("btnMail.ShowHelp"))));
             this.btnMail.UseVisualStyleBackColor = true;
+            this.btnMail.Click += new System.EventHandler(this.btnMail_Click);
             // 
             // TabControl1
             // 

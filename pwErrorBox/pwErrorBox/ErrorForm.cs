@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -23,7 +24,7 @@ namespace pwErrorBox
         private ErrorReport _errorReport;
         private Exception _exception = null;
 
-        private string _errorText = string.Empty;
+        private string _ToEmail= string.Empty;
         #endregion
         private System.Resources.ResourceManager RM = new System.Resources.ResourceManager("pwErrorBox.ErrorForm", typeof(ErrorForm).Assembly);
 
@@ -32,11 +33,12 @@ namespace pwErrorBox
             InitializeComponent();
         }
 
-        public ErrorForm(ErrorReport errorReport)
+        public ErrorForm(ErrorReport errorReport, string ToEmail)
         {
             InitializeComponent();
             Thread.CurrentThread.CurrentUICulture = errorReport.CurrentCulture ?? Application.CurrentCulture;
 
+            _ToEmail = ToEmail;
             _errorReport = errorReport;
             _exception = _errorReport.Exception;
             txtError.Text = _exception?.Message;
@@ -276,6 +278,7 @@ namespace pwErrorBox
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            string screenshotFilename;
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
                 Filter = "Text files (*.txt)|*.txt",
@@ -287,9 +290,11 @@ namespace pwErrorBox
                 {
                     Cursor.Current = Cursors.WaitCursor;
                     SaveErrorText(saveFileDialog.FileName);
-                    SaveScreenshot(saveFileDialog.FileName);
+                    screenshotFilename = SaveScreenshot(saveFileDialog.FileName);
 
                     Process.Start("explorer.exe", "/select, \"" + saveFileDialog.FileName + "\"");
+
+                    SendMail(saveFileDialog.FileName, screenshotFilename);
                 }
                 catch (Exception ex)
                 {
@@ -331,6 +336,43 @@ namespace pwErrorBox
             picScreenshot.Image.Save(screenshotFilename, System.Drawing.Imaging.ImageFormat.Jpeg);
 
             return screenshotFilename;
+        }
+
+        /// <summary>
+        /// Send the email with files attached
+        /// </summary>
+        /// <param name="textFilename"></param>
+        /// <param name="pictureFilename"></param>
+        private void SendMail(string textFilename, string pictureFilename)
+        {
+
+            MAPI mapi = new MAPI();
+            mapi.AddRecipientTo(_ToEmail);
+
+            if (File.Exists(textFilename))
+            {
+                mapi.AddAttachment(textFilename);
+            }
+            if (File.Exists(pictureFilename))
+            {
+                mapi.AddAttachment(pictureFilename);
+            }
+            mapi.SendMailPopup($"Error in {Application.ProductName}", GenerateErrorText());
+
+        }
+        private void btnMail_Click(object sender, EventArgs e)
+        {
+            string tempFileName;
+            string screenshotFilename = string.Empty;
+
+            tempFileName = Path.Combine(Path.GetTempPath(), $"{Application.ProductName} {DateTime.Now.ToString("yyyy-MM-dd HH.mm.ss")}.txt");
+            SaveErrorText(tempFileName);
+            if (chkIncludeScreenshot.Checked)
+            {
+                screenshotFilename = SaveScreenshot(tempFileName);
+            }
+
+            SendMail(tempFileName, screenshotFilename);
         }
     }
 }
