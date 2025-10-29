@@ -36,7 +36,7 @@ namespace pwErrorBox
         public CultureInfo CurrentCulture = CultureInfo.CreateSpecificCulture("en-US");
 
         /// <summary>
-        /// Gets or sets email address to receive the error report.
+        /// Gets or sets email address to receive the error report. If empty, it takes the email address set at Bind() time.
         /// </summary>
         public string ToEmail = string.Empty;
 
