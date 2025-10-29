@@ -1,5 +1,6 @@
 # pwErrorBox
 Advanced error messagebox that displays information about the error, making it easier to correct.
+
 It displays informations about the program version, the OS, error details, a screenshot, and the list of assemblies.
 
 <p align="center"><img align="center" src="/Screenshot.jpg?raw=true" alt="Screenshot"></p>
@@ -8,7 +9,7 @@ It displays informations about the program version, the OS, error details, a scr
 ## SAMPLE
 
 ``` csharp
-const string EMAIL = "pwerrorbox.corrosive249@slmail.me";
+const string EMAIL = "youremail@domain.com";
 
 //Put the Bind call in "Program Main method"
 [STAThread]
