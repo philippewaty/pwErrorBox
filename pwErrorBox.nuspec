@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>pwErrorBox</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>Philippe Waty</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <readme>README.md</readme>
+    <projectUrl>https://codeberg.org/PhilippeW/pwErrorBox</projectUrl>
+    <description>Display an advanced error message box.</description>
+    <summary></summary>
+    <releaseNotes>Version 1.0.0 (29-10-2025)
+    First version</releaseNotes>
+    <copyright>Copyright © Philippe Waty 2025</copyright>
+    <tags>error messagebox</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net45\pwErrorBox.dll" target="lib\net45\pwErrorBox.dll" />
+    <file src="license.txt" target="license.txt" />
+    <file src="README.md" target="README.md" />
+  </files>
+</package>
