@@ -253,6 +253,13 @@ namespace pwErrorBox
             message += $"Source: {txtSource.Text}{Environment.NewLine}";
             message += $"Exception: {txtException.Text}{Environment.NewLine}";
             message += $"Error: {txtError.Text}{Environment.NewLine}";
+            message += $"Stack Trace: {Environment.NewLine}{txtStackTrace.Text}{Environment.NewLine}";
+            message += Environment.NewLine;
+            message += "---- Loaded Assemblies ----" + Environment.NewLine;
+            foreach (AssemblyInfo value in GetAssemblies())
+            {
+                message += $"Name: {value.Name}, Version: {value.ImageRuntimeVersion}, Location: {value.Location}{Environment.NewLine}";
+            }
 
             return message;
         }
