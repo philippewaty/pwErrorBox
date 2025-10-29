@@ -281,7 +281,7 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="txtExplaination.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 125</value>
+    <value>9, 111</value>
   </data>
   <data name="txtExplaination.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -293,7 +293,7 @@
     <value>True</value>
   </data>
   <data name="txtExplaination.Size" type="System.Drawing.Size, System.Drawing">
-    <value>587, 127</value>
+    <value>587, 141</value>
   </data>
   <data name="txtExplaination.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -314,7 +314,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblExplaination.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 109</value>
+    <value>4, 85</value>
   </data>
   <data name="lblExplaination.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -340,60 +340,6 @@
   <data name="&gt;&gt;lblExplaination.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 86</value>
-  </data>
-  <data name="txtEmail.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 22</value>
-  </data>
-  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
-    <value>txtEmail</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
-    <value>TabPageGeneral</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 86</value>
-  </data>
-  <data name="lblMail.ShowHelp" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblMail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblMail.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lblMail.Text" xml:space="preserve">
-    <value>Your email</value>
-  </data>
-  <data name="&gt;&gt;lblMail.Name" xml:space="preserve">
-    <value>lblMail</value>
-  </data>
-  <data name="&gt;&gt;lblMail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMail.Parent" xml:space="preserve">
-    <value>TabPageGeneral</value>
-  </data>
-  <data name="&gt;&gt;lblMail.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>410, 32</value>
   </data>
@@ -416,7 +362,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;txtDate.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="lblDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -446,7 +392,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="txtVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 32</value>
@@ -470,7 +416,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;txtVersion.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="lblVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -500,7 +446,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>7</value>
   </data>
   <data name="txtApplication.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 6</value>
@@ -524,7 +470,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;txtApplication.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="lblApplication.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -554,7 +500,7 @@
     <value>TabPageGeneral</value>
   </data>
   <data name="&gt;&gt;lblApplication.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>9</value>
   </data>
   <data name="TabPageGeneral.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>

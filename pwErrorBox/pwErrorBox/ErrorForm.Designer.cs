@@ -40,8 +40,6 @@
             this.lblOS = new System.Windows.Forms.Label();
             this.txtExplaination = new System.Windows.Forms.TextBox();
             this.lblExplaination = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblMail = new System.Windows.Forms.Label();
             this.txtDate = new System.Windows.Forms.TextBox();
             this.lblDate = new System.Windows.Forms.Label();
             this.txtVersion = new System.Windows.Forms.TextBox();
@@ -120,8 +118,6 @@
             this.TabPageGeneral.Controls.Add(this.lblOS);
             this.TabPageGeneral.Controls.Add(this.txtExplaination);
             this.TabPageGeneral.Controls.Add(this.lblExplaination);
-            this.TabPageGeneral.Controls.Add(this.txtEmail);
-            this.TabPageGeneral.Controls.Add(this.lblMail);
             this.TabPageGeneral.Controls.Add(this.txtDate);
             this.TabPageGeneral.Controls.Add(this.lblDate);
             this.TabPageGeneral.Controls.Add(this.txtVersion);
@@ -157,18 +153,6 @@
             resources.ApplyResources(this.lblExplaination, "lblExplaination");
             this.lblExplaination.Name = "lblExplaination";
             this.HelpProvider1.SetShowHelp(this.lblExplaination, ((bool)(resources.GetObject("lblExplaination.ShowHelp"))));
-            // 
-            // txtEmail
-            // 
-            resources.ApplyResources(this.txtEmail, "txtEmail");
-            this.txtEmail.Name = "txtEmail";
-            this.HelpProvider1.SetShowHelp(this.txtEmail, ((bool)(resources.GetObject("txtEmail.ShowHelp"))));
-            // 
-            // lblMail
-            // 
-            resources.ApplyResources(this.lblMail, "lblMail");
-            this.lblMail.Name = "lblMail";
-            this.HelpProvider1.SetShowHelp(this.lblMail, ((bool)(resources.GetObject("lblMail.ShowHelp"))));
             // 
             // txtDate
             // 
@@ -419,8 +403,6 @@
     internal System.Windows.Forms.Label lblOS;
     internal System.Windows.Forms.TextBox txtExplaination;
     internal System.Windows.Forms.Label lblExplaination;
-    internal System.Windows.Forms.TextBox txtEmail;
-    internal System.Windows.Forms.Label lblMail;
     internal System.Windows.Forms.TextBox txtDate;
     internal System.Windows.Forms.Label lblDate;
     internal System.Windows.Forms.TextBox txtVersion;

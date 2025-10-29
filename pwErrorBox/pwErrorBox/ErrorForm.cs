@@ -245,10 +245,6 @@ namespace pwErrorBox
             message += $"Version: {txtVersion.Text}{Environment.NewLine}";
             message += $"Date: {txtDate.Text}{Environment.NewLine}";
             message += $"OS: {txtOS.Text}{Environment.NewLine}";
-            if (!string.IsNullOrEmpty(txtEmail.Text))
-            {
-                message += $"Email: {txtEmail.Text}{Environment.NewLine}";
-            }
             message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
             message += Environment.NewLine;
             message += "---- Exception Details ----" + Environment.NewLine;
