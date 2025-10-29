@@ -5,16 +5,15 @@ It displays informations about the program version, the OS, error details, a scr
 
 <p align="center"><img align="center" src="./Screenshot.jpg?raw=true" alt="Screenshot"></p>
 
-## Getting Started with the pwErrorBox Library
+## Install
 
-You can utilize the parser library in several ways:
+To install pwErrorBox (.NET Framework 4.5), run the following command in the Package Manager Console NuGet
 
-Install via NuGet/Paket:
+PM> Install-Package pwErrorBox
+
 
 https://www.nuget.org/packages/pwErrorBox/
-```
-NuGet\Install-Package pwErrorBox -Version 1.0.0
-```
+
 
 ## SAMPLE
 
