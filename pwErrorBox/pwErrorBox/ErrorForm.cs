@@ -245,7 +245,7 @@ namespace pwErrorBox
             message += $"Version: {txtVersion.Text}{Environment.NewLine}";
             message += $"Date: {txtDate.Text}{Environment.NewLine}";
             message += $"OS: {txtOS.Text}{Environment.NewLine}";
-            message += $"Explaination: {txtExplaination.Text}{Environment.NewLine}";
+            message += $"Explaination: {Environment.NewLine}{txtExplaination.Text}{Environment.NewLine}";
             message += Environment.NewLine;
             message += "---- Exception Details ----" + Environment.NewLine;
             message += $"Source: {txtSource.Text}{Environment.NewLine}";
